@@ -46,5 +46,10 @@ public class HelloController {
             this.name = name;
         }
     }
+
+    @GetMapping("woori")
+    public String woori() {
+        return "woori";
+    }
 }
 

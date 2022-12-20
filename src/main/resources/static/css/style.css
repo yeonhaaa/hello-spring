@@ -1,0 +1,30 @@
+.icon-item>a{
+    display:block;
+    width:85px;
+    height:85px;
+    /*text-align:center;*/
+    text-decoration:none;
+    color:black;
+    border-radius:50%;
+    background:url(../image/bluepig.PNG) no-repeat center 20%;
+}
+.icon-item>a:hover{
+    width:85px;
+    height:85px;
+    background:url(../image/whitepig.PNG) no-repeat center 20%;
+    background-color:dodgerblue;
+    border-radius:50%;
+    color:white;
+}
+
+/*.icon-item span {*/
+/*    line-height: 85px;*/
+/*}*/
+
+span{
+    display:block;
+    width:85px;
+    text-align:center;
+    line-height:125px;
+}
+
